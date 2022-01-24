@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    --max-width: 60vw;
 }
 
 body{
@@ -12,3 +13,47 @@ header{
     display: flex;
     justify-content: center;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: var(--max-width);
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.color-change{
+    padding-top: 200px;
+}
+
+
+.color-change-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: var(--max-width);
+}
+
+
+.color-box{
+    height: 600px;
+    width: 600px;
+}
+
